@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function CTADivider() {
   return (
     <div>
@@ -14,12 +15,12 @@ export default function CTADivider() {
             <span className="inline-flex pt-5 pb-2">
               <div className="CTA flex">
                 <div className="relative">
-                  <a
+                  <Link
                     href="/product-recommend/"
                     className="cta flex mx-auto md:mx-0 outline-none focus:outline-black border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150"
                   >
                     <div>Get started</div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </span>

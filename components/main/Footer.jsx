@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer
@@ -13,7 +14,7 @@ export default function Footer() {
           data-v-659c2e88=""
         >
           <div className="flex items-center" data-v-659c2e88="">
-            <a
+            <Link
               href="/"
               aria-current="page"
               aria-label="Homepage"
@@ -91,7 +92,7 @@ export default function Footer() {
                   ></path>
                 </g>
               </svg>
-            </a>
+            </Link>
             <h4 className="pl-3" data-v-659c2e88="">
               Copyright © H&amp;R Block Canada, Inc.
             </h4>
@@ -100,7 +101,7 @@ export default function Footer() {
         <div className="hidden md:block md:w-1/4" data-v-659c2e88="">
           <ul className="flex space-x-2" data-v-659c2e88="">
             <li data-v-659c2e88="">
-              <a
+              <Link
                 href="https://www.facebook.com/HRBlockCanada"
                 data-v-659c2e88=""
               >
@@ -110,20 +111,20 @@ export default function Footer() {
                   className="w-7 h-7"
                   data-v-659c2e88=""
                 />
-              </a>
+              </Link>
             </li>
             <li data-v-659c2e88="">
-              <a href="https://twitter.com/HRBlockCanada" data-v-659c2e88="">
+              <Link href="https://twitter.com/HRBlockCanada" data-v-659c2e88="">
                 <img
                   src="https://www.hrblock.ca/media/Icons/footer-twitter.svg"
                   alt="Twitter"
                   className="w-7 h-7"
                   data-v-659c2e88=""
                 />
-              </a>
+              </Link>
             </li>
             <li data-v-659c2e88="">
-              <a
+              <Link
                 href="https://www.youtube.com/user/HandRBlockTV"
                 data-v-659c2e88=""
               >
@@ -133,10 +134,10 @@ export default function Footer() {
                   className="w-7 h-7"
                   data-v-659c2e88=""
                 />
-              </a>
+              </Link>
             </li>
             <li data-v-659c2e88="">
-              <a
+              <Link
                 href="https://www.linkedin.com/company/hrbcanada/"
                 data-v-659c2e88=""
               >
@@ -146,10 +147,10 @@ export default function Footer() {
                   className="w-7 h-7"
                   data-v-659c2e88=""
                 />
-              </a>
+              </Link>
             </li>
             <li data-v-659c2e88="">
-              <a
+              <Link
                 href="https://www.instagram.com/hrblockcanada/"
                 data-v-659c2e88=""
               >
@@ -159,7 +160,7 @@ export default function Footer() {
                   className="w-7 h-7"
                   data-v-659c2e88=""
                 />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -169,52 +170,52 @@ export default function Footer() {
             data-v-659c2e88=""
           >
             <li className="py-2 md:py-0" data-v-659c2e88="">
-              <a
+              <Link
                 href="/legal/terms-conditions"
                 className="flex space-x-3 outline-none  focus:outline-black border-transparent border-2"
                 data-v-659c2e88=""
               >
                 Terms
-              </a>
+              </Link>
             </li>
             <li className="py-2 md:py-0" data-v-659c2e88="">
-              <a
+              <Link
                 href="/legal/terms-conditions/hr-block-software-terms-conditions"
                 className="flex space-x-3 outline-none  focus:outline-black border-transparent border-2"
                 data-v-659c2e88=""
               >
                 Software Terms
-              </a>
+              </Link>
             </li>
             <li className="py-2 md:py-0" data-v-659c2e88="">
-              <a
+              <Link
                 href="/legal/terms-conditions/privacy"
                 className="flex space-x-3 outline-none  focus:outline-black border-transparent border-2"
                 data-v-659c2e88=""
               >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li className="py-2 md:py-0" data-v-659c2e88="">
-              <a
+              <Link
                 href="/legal/accessibility"
                 className="flex space-x-3 outline-none  focus:outline-black border-transparent border-2"
                 data-v-659c2e88=""
               >
                 Accessibility
-              </a>
+              </Link>
             </li>
             <li className="py-2 md:py-0" data-v-659c2e88="">
-              <a
+              <Link
                 href="/sitemap.xml"
                 className="flex space-x-3 outline-none  focus:outline-black border-transparent border-2"
                 data-v-659c2e88=""
               >
                 Sitemap
-              </a>
+              </Link>
             </li>
             <li className="py-2 md:py-0" data-v-659c2e88="">
-              <a
+              <Link
                 href="https://www.hrblock.com"
                 target="_blank"
                 rel="noopener"
@@ -222,7 +223,7 @@ export default function Footer() {
                 data-v-659c2e88=""
               >
                 H&amp;R Block U.S.
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

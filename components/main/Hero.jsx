@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Hero() {
   return (
     <section className="bg-white">
@@ -17,12 +18,12 @@ export default function Hero() {
                 <div className="flex items-center justify-start">
                   <div className="CTA flex inline whitespace-nowrap">
                     <div className="relative">
-                      <a
+                      <Link
                         href="/file-with-an-expert/"
                         className="cta flex mx-auto md:mx-0 outline-none focus:outline-black border-transparent border-2 text-black bg-goldenrod-300 no-underline hover:bg-goldenrod-100 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150"
                       >
                         <div>File with an expert</div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -32,12 +33,12 @@ export default function Hero() {
                   <div className="px-2 text-gray-900"></div>
                   <div className="CTA flex inline whitespace-nowrap">
                     <div className="relative">
-                      <a
+                      <Link
                         href="/file-your-taxes/online-tax-software/"
                         className="cta flex mx-auto md:mx-0 outline-none focus:outline-black border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150"
                       >
                         <div>File yourself</div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

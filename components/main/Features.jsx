@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Features() {
   return (
     <div>
@@ -83,7 +84,7 @@ export default function Features() {
                     </p>
                   </div>
                   <div className="flex-1 flex justify-center items-end py-8">
-                    <a href="/file-your-taxes/file-in-office/" className="">
+                    <Link href="/file-your-taxes/file-in-office/" className="">
                       <div className="CTA flex">
                         <div className="relative">
                           <button className="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
@@ -91,7 +92,7 @@ export default function Features() {
                           </button>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li className="flex flex-col px-16 md:px-6">
@@ -140,7 +141,7 @@ export default function Features() {
                     </p>
                   </div>
                   <div className="flex-1 flex justify-center items-end py-8">
-                    <a
+                    <Link
                       href="/file-your-taxes/file-in-office/easy-drop-off/"
                       className=""
                     >
@@ -151,7 +152,7 @@ export default function Features() {
                           </button>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </li>
                 <li className="flex flex-col px-16 md:px-6">
@@ -203,7 +204,7 @@ export default function Features() {
                     </p>
                   </div>
                   <div className="flex-1 flex justify-center items-end py-8">
-                    <a
+                    <Link
                       href="/file-your-taxes/remote-tax-expert/"
                       className="relative"
                     >
@@ -217,7 +218,7 @@ export default function Features() {
                       <div className="absolute top-0 right-2 bg-hrbgreen-800 text-white transform translate-x-1/2 -translate-y-1/2 text-xs md:text-xxs px-1">
                         New
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -258,7 +259,7 @@ export default function Features() {
                     </p>
                   </div>
                   <div className="flex-1 flex justify-center items-end py-8">
-                    <a
+                    <Link
                       href="/file-your-taxes/online-tax-software/"
                       className=""
                     >
@@ -269,7 +270,7 @@ export default function Features() {
                           </button>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </li>
               </ul>

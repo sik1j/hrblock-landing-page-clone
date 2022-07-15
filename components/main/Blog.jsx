@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Blog() {
   return (
     <div>
@@ -13,12 +15,12 @@ export default function Blog() {
               </h2>
               <div className="CTA flex justify-center md:justify-start">
                 <div className="relative">
-                  <a
+                  <Link
                     href="/blog/"
                     className="cta flex mx-auto md:mx-0 outline-none focus:outline-black text-xl font-semibold hover:text-hrbgreen-800 focus:outline-black border-b-4 border-black"
                   >
                     <div>View all tax tips</div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -41,7 +43,7 @@ export default function Blog() {
                     style={{ position: "absolute", left: "0%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/my-income-didnt-change-but-my-benefits-did-what-gives-answering-your-qs-about-recalculating-your-benefits"
                       className="focus:outline-black"
                     >
@@ -83,13 +85,13 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black is-selected"
                     style={{ position: "absolute", left: "33.33%" }}
                   >
-                    <a
+                    <Link
                       href="/blog/youre-in-canada-but-not-technically-a-resident-do-you-owe-taxes"
                       className="focus:outline-black"
                     >
@@ -130,14 +132,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "66.67%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/are-you-now-a-fulltime-remote-worker-congrats-youre-a-digital-nomad-what-does-it-mean-for-your-taxes"
                       className="focus:outline-black"
                     >
@@ -179,14 +181,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "100%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/i-can-clam-that-what-you-need-to-know-about-claiming-specialized-medical-care"
                       className="focus:outline-black"
                     >
@@ -227,14 +229,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "133.33%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/the-2022-federal-budget-new-credits-to-help-buy-a-home-more-tax-deductions-and-more"
                       className="focus:outline-black"
                     >
@@ -275,14 +277,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "166.66%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/how-do-i-change-my-return-everything-you-need-to-know-about-refile"
                       className="focus:outline-black"
                     >
@@ -323,14 +325,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "200%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/everything-you-need-to-know-about-netfile"
                       className="focus:outline-black"
                     >
@@ -370,14 +372,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "233.33%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/whats-my-filing-deadline"
                       className="focus:outline-black"
                     >
@@ -417,14 +419,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "266.66%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/what-is-the-climate-action-incentive-payment-caip-heres-how-it-affects-your-taxes"
                       className="focus:outline-black"
                     >
@@ -465,14 +467,14 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div
                     className="carousel-cell border-0 flex -mx-2 md:mx-0 md:px-4 md:m-1 w-4/6 md:w-full bg-white black"
                     style={{ position: "absolute", left: "300%" }}
                     aria-hidden="true"
                   >
-                    <a
+                    <Link
                       href="/blog/if-the-cra-is-reviewing-your-tax-return-youre-going-to-want-to-read-this"
                       className="focus:outline-black"
                     >
@@ -513,7 +515,7 @@ export default function Blog() {
                           </picture>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -1,3 +1,4 @@
+import Link from "next/link ";
 export default function Header() {
   return (
     <header className="fixed md:relative h-16 md:h-auto z-30">
@@ -8,17 +9,17 @@ export default function Header() {
         >
           <div className="absolute inset-0 bg-gray-500 opacity-50"></div>
         </div>
-        <a
+        <Link
           href="#main-content"
           className="sr-only focus:not-sr-only focus:outline-black text-white font-semibold text-2xl"
         >
           Skip to Content
-        </a>
+        </Link>
         <div className="relative bg-white">
           <nav className="h-16 max-w-screen-2xl flex items-center justify-between mx-auto">
             <div className="flex">
               <div className="md:w-28 flex items-center">
-                <a
+                <Link
                   href="/"
                   aria-current="page"
                   className="focus:outline-black inline-block bg-hrbgreen-600 md:w-12 md:h-12 mx-2 active--exact active"
@@ -81,12 +82,12 @@ export default function Header() {
                       ></path>
                     </g>
                   </svg>
-                </a>
+                </Link>
               </div>
 
               <ul className="hidden md:flex -ml-3">
                 <li className="flex-auto">
-                  <a
+                  <Link
                     id="control16490"
                     href="/file-your-taxes/"
                     className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800"
@@ -104,10 +105,10 @@ export default function Header() {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex-auto">
-                  <a
+                  <Link
                     id="control16491"
                     href="/tax-situations/"
                     className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800"
@@ -125,10 +126,10 @@ export default function Header() {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex-auto">
-                  <a
+                  <Link
                     href="/tax-calculator/"
                     className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black "
                   >
@@ -138,10 +139,10 @@ export default function Header() {
                     >
                       <span className="text-left">Tax Calculator</span>
                     </div>
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex-auto">
-                  <a
+                  <Link
                     href="/support/"
                     className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black "
                   >
@@ -151,10 +152,10 @@ export default function Header() {
                     >
                       <span className="text-left">Support</span>
                     </div>
-                  </a>
+                  </Link>
                 </li>
                 <li className="flex-auto">
-                  <a
+                  <Link
                     href="/blog/"
                     className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black "
                   >
@@ -164,7 +165,7 @@ export default function Header() {
                     >
                       <span className="text-left">Blog</span>
                     </div>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -220,7 +221,7 @@ export default function Header() {
                 </div>
               </li>
               <li>
-                <a
+                <Link
                   href="/office-locator/"
                   className="focus:outline-black h-14 flex justify-center items-center py-3 px-0.5 md:px-3 md:py-4"
                 >
@@ -251,7 +252,7 @@ export default function Header() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
                 <div className="cursor-pointer focus:outline-black h-14 justify-center items-center py-3 px-0.5 md:px-3 md:py-4 relative hidden">
                   <div className="group flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
                     <span className="sr-only xl:not-sr-only xl:inline text-right">
@@ -318,7 +319,7 @@ export default function Header() {
                 </div>
               </li>
               <li>
-                <a
+                <Link
                   href="/sign-in/"
                   className="focus:outline-black h-14 flex justify-center items-center py-3 px-0.5 md:px-3 md:py-4 md:hidden"
                 >
@@ -384,7 +385,7 @@ export default function Header() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
                 <div className="cursor-pointer focus:outline-black h-14 justify-center items-center py-3 px-0.5 md:px-3 md:py-4 relative hidden md:flex">
                   <div className="group flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
                     <span className="sr-only xl:not-sr-only xl:inline text-right">
@@ -451,7 +452,7 @@ export default function Header() {
                 </div>
               </li>
               <li className="sr-only md:not-sr-only md:inline">
-                <a
+                <Link
                   href="/fr/"
                   className="focus:outline-black h-14 flex justify-center items-center px-3 py-4"
                 >
@@ -459,7 +460,7 @@ export default function Header() {
                     <span className="hidden lg:inline">Français</span>
                     <span className="inline lg:hidden">FR</span>
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="flex pl-0.5 pr-2 md:hidden">
                 <nav className="inline-flex">
@@ -525,52 +526,52 @@ export default function Header() {
             <ul className="px-8 space-y-5">
               <li className="">
                 <p className="pb-4">
-                  <a
+                  <Link
                     href="/file-your-taxes/"
                     className="w-full block focus:outline-black"
                   >
                     File Your Taxes
-                  </a>
+                  </Link>
                 </p>
 
                 <ul className="space-y-5 pl-4">
                   <li className="text-gray-500">
                     <ul className="space-y-5">
                       <li className="text-gray-500">
-                        <a
+                        <Link
                           href="/file-your-taxes/file-in-office/"
                           className="w-full block focus:outline-black"
                         >
                           File in Office
-                        </a>
+                        </Link>
                       </li>
                       <li className="text-gray-500">
-                        <a
+                        <Link
                           href="/file-your-taxes/file-in-office/easy-drop-off/"
                           className="w-full block focus:outline-black"
                         >
                           Drop-off
-                        </a>
+                        </Link>
                       </li>
                       <li className="text-gray-500">
-                        <a
+                        <Link
                           href="/file-your-taxes/remote-tax-expert/"
                           className="w-full block focus:outline-black"
                         >
                           Remote Tax Expert
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   <li className="text-gray-500">
                     <ul className="space-y-5">
                       <li className="text-gray-500">
-                        <a
+                        <Link
                           href="/file-your-taxes/online-tax-software/"
                           className="w-full block focus:outline-black"
                         >
                           Tax Software
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -578,108 +579,114 @@ export default function Header() {
               </li>
               <li className="">
                 <p className="pb-4">
-                  <a
+                  <Link
                     href="/tax-situations/"
                     className="w-full block focus:outline-black"
                   >
                     Tax Situations
-                  </a>
+                  </Link>
                 </p>
 
                 <ul className="space-y-5 pl-4">
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/students/"
                       className="w-full block focus:outline-black"
                     >
                       Students
-                    </a>
+                    </Link>
                   </li>
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/newcomers/"
                       className="w-full block focus:outline-black"
                     >
                       Newcomers
-                    </a>
+                    </Link>
                   </li>
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/small-business/"
                       className="w-full block focus:outline-black"
                     >
                       Small Business
-                    </a>
+                    </Link>
                   </li>
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/us-tax-returns/"
                       className="w-full block focus:outline-black"
                     >
                       U.S. Tax Filing
-                    </a>
+                    </Link>
                   </li>
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/military/"
                       className="w-full block focus:outline-black"
                     >
                       Military
-                    </a>
+                    </Link>
                   </li>
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/seniors/"
                       className="w-full block focus:outline-black"
                     >
                       Seniors
-                    </a>
+                    </Link>
                   </li>
                   <li className="text-gray-500">
-                    <a
+                    <Link
                       href="/tax-situations/canadians-abroad/"
                       className="w-full block focus:outline-black"
                     >
                       Canadians Abroad
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li className="h-7">
                 <p className="pb-4">
-                  <a
+                  <Link
                     href="/tax-calculator/"
                     className="w-full block focus:outline-black"
                   >
                     Tax Calculator
-                  </a>
+                  </Link>
                 </p>
 
                 <ul className="space-y-5 pl-4"></ul>
               </li>
               <li className="h-7">
                 <p className="pb-4">
-                  <a
+                  <Link
                     href="/support/"
                     className="w-full block focus:outline-black"
                   >
                     Support
-                  </a>
+                  </Link>
                 </p>
 
                 <ul className="space-y-5 pl-4"></ul>
               </li>
               <li className="h-7">
                 <p className="pb-4">
-                  <a href="/blog/" className="w-full block focus:outline-black">
+                  <Link
+                    href="/blog/"
+                    className="w-full block focus:outline-black"
+                  >
                     Blog
-                  </a>
+                  </Link>
                 </p>
 
                 <ul className="space-y-5 pl-4"></ul>
               </li>
               <li className="border-t pt-5">
-                <a href="/search/" className="w-full block focus:outline-black">
+                <Link
+                  href="/search/"
+                  className="w-full block focus:outline-black"
+                >
                   <div className="md:h-14 group inline-flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
                     <span className="text-right">Search</span>
                     <div className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
@@ -724,10 +731,10 @@ export default function Header() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a
+                <Link
                   href="/office-locator/"
                   className="w-full block focus:outline-black"
                 >
@@ -756,10 +763,10 @@ export default function Header() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a
+                <Link
                   href="/sign-in/"
                   className="w-full block focus:outline-black"
                 >
@@ -823,14 +830,14 @@ export default function Header() {
                       </svg>
                     </div>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/fr/" className="w-full block focus:outline-black">
+                <Link href="/fr/" className="w-full block focus:outline-black">
                   <div className="md:h-14 pt-2 pr-2 group inline-flex items-center space-x-2 leading-6 md:font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150">
                     <span className="inline">Français</span>
                   </div>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>

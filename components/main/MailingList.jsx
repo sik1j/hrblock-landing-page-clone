@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function MailingList() {
   return (
     <section>
@@ -61,9 +62,9 @@ export default function MailingList() {
               electronic messages from H&amp;R Block Canada regarding product
               offerings, tax tips, and promotional materials. You can withdraw
               your consent at any time by emailing us at{" "}
-              <a className="underline" href="mailto:unsubscribe@hrblock.ca">
+              <Link className="underline" href="mailto:unsubscribe@hrblock.ca">
                 unsubscribe@hrblock.ca
-              </a>
+              </Link>
             </p>
           </div>
         </div>
