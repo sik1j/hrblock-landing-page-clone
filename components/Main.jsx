@@ -8,7 +8,7 @@ import Footer from "./main/Footer";
 
 export default function Main() {
   return (
-    <>
+    <div>
       <Hero />
       <Features />
       <CTADivider />
@@ -16,6 +16,6 @@ export default function Main() {
       <Blog />
       <MailingList />
       <Footer />
-    </>
+    </div>
   );
 }
