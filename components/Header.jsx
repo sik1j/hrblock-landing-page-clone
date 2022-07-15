@@ -1,4 +1,5 @@
-import Link from "next/link ";
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header className="fixed md:relative h-16 md:h-auto z-30">
