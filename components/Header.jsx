@@ -25,64 +25,66 @@ export default function Header() {
                   aria-current="page"
                   className="focus:outline-black inline-block bg-hrbgreen-600 md:w-12 md:h-12 mx-2 active--exact active"
                 >
-                  <span className="sr-only">Link to Home</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="56"
-                    height="56"
-                    id="logo"
-                    viewBox="0 0 75 75"
-                    className="g-image--lazy g-image--loaded sm:w-16 md:w-12 sm:h-16 md:h-12"
-                  >
-                    <defs>
-                      <clipPath id="a1">
-                        <path d="M0 0h75v75H0z"></path>
-                      </clipPath>
-                    </defs>
-                    <path fill="#14aa40" d="M0 0h75v75H0z"></path>
-                    <path
-                      fill="white"
-                      d="M5.7 39.7h4.1v4.8H13v-4.8h4.1v13.2H13v-4.8H9.8V53H5.7z"
-                    ></path>
-                    <g className="c1">
+                  <>
+                    <span className="sr-only">Link to Home</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="56"
+                      height="56"
+                      id="logo"
+                      viewBox="0 0 75 75"
+                      className="g-image--lazy g-image--loaded sm:w-16 md:w-12 sm:h-16 md:h-12"
+                    >
+                      <defs>
+                        <clipPath id="a1">
+                          <path d="M0 0h75v75H0z"></path>
+                        </clipPath>
+                      </defs>
+                      <path fill="#14aa40" d="M0 0h75v75H0z"></path>
                       <path
                         fill="white"
-                        d="M39.2 46.3a1.6 1.6 0 001.6-1.6 1.4 1.4 0 00-1.6-1.6h-2v3.2h2zm-.9 3.2h-1.1v3.4H33V40h6.6c3.4 0 5 2 5 4.8a4.8 4.8 0 01-2.3 4.1l2.5 4.1H40z"
+                        d="M5.7 39.7h4.1v4.8H13v-4.8h4.1v13.2H13v-4.8H9.8V53H5.7z"
                       ></path>
-                    </g>
-                    <g className="c1">
+                      <g className="c1">
+                        <path
+                          fill="white"
+                          d="M39.2 46.3a1.6 1.6 0 001.6-1.6 1.4 1.4 0 00-1.6-1.6h-2v3.2h2zm-.9 3.2h-1.1v3.4H33V40h6.6c3.4 0 5 2 5 4.8a4.8 4.8 0 01-2.3 4.1l2.5 4.1H40z"
+                        ></path>
+                      </g>
+                      <g className="c1">
+                        <path
+                          fill="white"
+                          d="M12.3 66.6c.7 0 1-.5 1-1.2a1 1 0 00-1.2-1H9.6v2.2zm-.9-5c.7 0 1-.5 1-1.2a1 1 0 00-1-.9H9.6v2zm-5.7-5h6.8c2.5 0 4 1.3 4 3.4a3.3 3.3 0 01-1.7 3c1.6.4 2.5 1.3 2.5 2.9 0 2.3-1.6 3.7-4.5 3.7H5.9v-13z"
+                        ></path>
+                      </g>
                       <path
                         fill="white"
-                        d="M12.3 66.6c.7 0 1-.5 1-1.2a1 1 0 00-1.2-1H9.6v2.2zm-.9-5c.7 0 1-.5 1-1.2a1 1 0 00-1-.9H9.6v2zm-5.7-5h6.8c2.5 0 4 1.3 4 3.4a3.3 3.3 0 01-1.7 3c1.6.4 2.5 1.3 2.5 2.9 0 2.3-1.6 3.7-4.5 3.7H5.9v-13z"
+                        d="M18.7 56.6h4.1V66H28v3.5h-9.3z"
                       ></path>
-                    </g>
-                    <path
-                      fill="white"
-                      d="M18.7 56.6h4.1V66H28v3.5h-9.3z"
-                    ></path>
-                    <g className="c1">
+                      <g className="c1">
+                        <path
+                          fill="white"
+                          d="M37.6 64v-2c0-1.6-.7-2.3-2-2.3s-2 1-2 2.3v2c0 1.7.6 2.4 2 2.4a2 2 0 002-2.3m-8.4-.2v-1.6c0-3.7 2-6 6.1-6s6.2 2.5 6.2 6v1.6c0 3.6-2 5.9-6.2 5.9-3.8 0-6.1-2.5-6.1-6"
+                        ></path>
+                      </g>
+                      <g className="c1">
+                        <path
+                          fill="white"
+                          d="M49.3 66.4a1.9 1.9 0 002-1.9h3.9c0 3-2 5.3-5.7 5.3-4.1 0-6.2-2.3-6.2-6V62c0-3.6 2-5.9 6.2-5.9 3.6 0 5.7 2.3 5.7 5.2h-3.9a2 2 0 00-2-2c-1.4 0-2 .9-2 2.3v2q0 2.8 2 2.8"
+                        ></path>
+                      </g>
                       <path
                         fill="white"
-                        d="M37.6 64v-2c0-1.6-.7-2.3-2-2.3s-2 1-2 2.3v2c0 1.7.6 2.4 2 2.4a2 2 0 002-2.3m-8.4-.2v-1.6c0-3.7 2-6 6.1-6s6.2 2.5 6.2 6v1.6c0 3.6-2 5.9-6.2 5.9-3.8 0-6.1-2.5-6.1-6"
+                        d="M57.2 56.6h4.1V61h.3l2.7-4.5H69l-3.5 5.9 4 7h-4.9L61.9 64h-.5v5.5h-4z"
                       ></path>
-                    </g>
-                    <g className="c1">
-                      <path
-                        fill="white"
-                        d="M49.3 66.4a1.9 1.9 0 002-1.9h3.9c0 3-2 5.3-5.7 5.3-4.1 0-6.2-2.3-6.2-6V62c0-3.6 2-5.9 6.2-5.9 3.6 0 5.7 2.3 5.7 5.2h-3.9a2 2 0 00-2-2c-1.4 0-2 .9-2 2.3v2q0 2.8 2 2.8"
-                      ></path>
-                    </g>
-                    <path
-                      fill="white"
-                      d="M57.2 56.6h4.1V61h.3l2.7-4.5H69l-3.5 5.9 4 7h-4.9L61.9 64h-.5v5.5h-4z"
-                    ></path>
-                    <g className="c1">
-                      <path
-                        fill="white"
-                        d="M24.6 50.4a1.8 1.8 0 01-2-1.8 2.3 2.3 0 01.9-1.6l2.5 3a2.4 2.4 0 01-1.4.4m5-.2a5 5 0 00.5-2.5v-2h-3v1.7l-3-3.4c-.2-.4-.4-.7-.4-1.1a1 1 0 011-1 .8.8 0 01.8 1v.7h3.2v-1c0-2-1.8-3.4-4-3.4-2.6 0-4.4 1.4-4.4 3.4a3 3 0 001.1 2.3 3.7 3.7 0 00-2.2 3.7c0 2.5 2 4.3 5.7 4.3a4.8 4.8 0 003.1-1l.7.8h3.7z"
-                      ></path>
-                    </g>
-                  </svg>
+                      <g className="c1">
+                        <path
+                          fill="white"
+                          d="M24.6 50.4a1.8 1.8 0 01-2-1.8 2.3 2.3 0 01.9-1.6l2.5 3a2.4 2.4 0 01-1.4.4m5-.2a5 5 0 00.5-2.5v-2h-3v1.7l-3-3.4c-.2-.4-.4-.7-.4-1.1a1 1 0 011-1 .8.8 0 01.8 1v.7h3.2v-1c0-2-1.8-3.4-4-3.4-2.6 0-4.4 1.4-4.4 3.4a3 3 0 001.1 2.3 3.7 3.7 0 00-2.2 3.7c0 2.5 2 4.3 5.7 4.3a4.8 4.8 0 003.1-1l.7.8h3.7z"
+                        ></path>
+                      </g>
+                    </svg>
+                  </>
                 </Link>
               </div>
 
@@ -93,19 +95,21 @@ export default function Header() {
                     href="/file-your-taxes/"
                     className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800"
                   >
-                    <span className="text-left">File Your Taxes</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      className=" transform h-5 w-5 group-hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800 rotate-0"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
+                    <>
+                      <span className="text-left">File Your Taxes</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className=" transform h-5 w-5 group-hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800 rotate-0"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        ></path>
+                      </svg>
+                    </>
                   </Link>
                 </li>
                 <li className="flex-auto">
@@ -114,19 +118,21 @@ export default function Header() {
                     href="/tax-situations/"
                     className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800"
                   >
-                    <span className="text-left">Tax Situations</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      className=" transform h-5 w-5 group-hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800 rotate-0"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      ></path>
-                    </svg>
+                    <>
+                      <span className="text-left">Tax Situations</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                        className=" transform h-5 w-5 group-hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800 rotate-0"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        ></path>
+                      </svg>
+                    </>
                   </Link>
                 </li>
                 <li className="flex-auto">
