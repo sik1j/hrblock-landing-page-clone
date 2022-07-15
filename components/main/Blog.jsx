@@ -32,7 +32,7 @@ export default function Blog() {
             >
               <div
                 className="flickity-viewport"
-                style={{ height: "520px", "touch-action": "pan-y" }}
+                style={{ height: "520px", touchAction: "pan-y" }}
               >
                 <div
                   className="flickity-slider"
