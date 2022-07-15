@@ -100,9 +100,9 @@ export default function Header() {
                       className=" transform h-5 w-5 group-hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800 rotate-0"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </Link>
@@ -121,9 +121,9 @@ export default function Header() {
                       className=" transform h-5 w-5 group-hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800 rotate-0"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       ></path>
                     </svg>
                   </Link>
@@ -198,9 +198,9 @@ export default function Header() {
                             transform="translate(-0.421)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           ></circle>
                           <line
                             id="Line_182"
@@ -210,9 +210,9 @@ export default function Header() {
                             transform="translate(11.579 12)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           ></line>
                         </g>
                       </svg>
@@ -244,10 +244,10 @@ export default function Header() {
                           transform="translate(-771.37 -334.924)"
                           fill="none"
                           stroke="#005d1f"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeMiterlimit="10"
+                          strokeWidth="2"
                         ></path>
                       </svg>
                     </div>
@@ -277,9 +277,9 @@ export default function Header() {
                             transform="translate(338 19)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           >
                             <circle
                               cx="5.5"
@@ -299,8 +299,8 @@ export default function Header() {
                             data-name="Path 57"
                             transform="translate(334 28)"
                             fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           >
                             <path
                               d="M9.5,0A9.5,9.5,0,0,1,19,9.5H0A9.5,9.5,0,0,1,9.5,0Z"
@@ -346,9 +346,9 @@ export default function Header() {
                             transform="translate(338 19)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           >
                             <circle
                               cx="5.5"
@@ -368,8 +368,8 @@ export default function Header() {
                             data-name="Path 57"
                             transform="translate(334 28)"
                             fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           >
                             <path
                               d="M9.5,0A9.5,9.5,0,0,1,19,9.5H0A9.5,9.5,0,0,1,9.5,0Z"
@@ -410,9 +410,9 @@ export default function Header() {
                             transform="translate(338 19)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           >
                             <circle
                               cx="5.5"
@@ -432,8 +432,8 @@ export default function Header() {
                             data-name="Path 57"
                             transform="translate(334 28)"
                             fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           >
                             <path
                               d="M9.5,0A9.5,9.5,0,0,1,19,9.5H0A9.5,9.5,0,0,1,9.5,0Z"
@@ -487,8 +487,8 @@ export default function Header() {
                           transform="translate(210.784 868.444) rotate(-90)"
                           fill="none"
                           stroke="#005d1f"
-                          stroke-linecap="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeWidth="2"
                         ></line>
                         <line
                           id="Line_3"
@@ -497,8 +497,8 @@ export default function Header() {
                           transform="translate(210.784 876.888) rotate(-90)"
                           fill="none"
                           stroke="#005d1f"
-                          stroke-linecap="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeWidth="2"
                         ></line>
                         <line
                           id="Line_4"
@@ -507,8 +507,8 @@ export default function Header() {
                           transform="translate(210.784 885.332) rotate(-90)"
                           fill="none"
                           stroke="#005d1f"
-                          stroke-linecap="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeWidth="2"
                         ></line>
                       </g>
                     </svg>
@@ -711,9 +711,9 @@ export default function Header() {
                             transform="translate(-0.421)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           ></circle>
                           <line
                             id="Line_182"
@@ -723,9 +723,9 @@ export default function Header() {
                             transform="translate(11.579 12)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           ></line>
                         </g>
                       </svg>
@@ -755,10 +755,10 @@ export default function Header() {
                           transform="translate(-771.37 -334.924)"
                           fill="none"
                           stroke="#005d1f"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeMiterlimit="10"
+                          strokeWidth="2"
                         ></path>
                       </svg>
                     </div>
@@ -791,9 +791,9 @@ export default function Header() {
                             transform="translate(338 19)"
                             fill="none"
                             stroke="#005d1f"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                           >
                             <circle
                               cx="5.5"
@@ -813,8 +813,8 @@ export default function Header() {
                             data-name="Path 57"
                             transform="translate(334 28)"
                             fill="none"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                           >
                             <path
                               d="M9.5,0A9.5,9.5,0,0,1,19,9.5H0A9.5,9.5,0,0,1,9.5,0Z"
@@ -865,8 +865,8 @@ export default function Header() {
                     transform="translate(211.093 868.444)"
                     fill="none"
                     stroke="#005d1f"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   ></line>
                   <line
                     id="Line_4"
@@ -876,8 +876,8 @@ export default function Header() {
                     transform="translate(211.093 868.764)"
                     fill="none"
                     stroke="#005d1f"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   ></line>
                 </g>
               </svg>

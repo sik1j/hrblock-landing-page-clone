@@ -8,7 +8,7 @@ export default function Calculator() {
               width="500"
               height="500"
               loading="lazy"
-              srcset="https://www.hrblock.ca/images/Header/taxcalc.png?w=384&amp;h=384&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=682ef0c9fc4feb66a911a4ef60d4a744 384w, https://www.hrblock.ca/images/Header/taxcalc.png?w=430&amp;h=430&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=84a9df7033a5ed2ee0dbdacc3912884c 430w, https://www.hrblock.ca/images/Header/taxcalc.png?w=400&amp;h=400&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=eef81f4e4ff2d289478c889ef32f29aa 400w"
+              srcSet="https://www.hrblock.ca/images/Header/taxcalc.png?w=384&amp;h=384&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=682ef0c9fc4feb66a911a4ef60d4a744 384w, https://www.hrblock.ca/images/Header/taxcalc.png?w=430&amp;h=430&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=84a9df7033a5ed2ee0dbdacc3912884c 430w, https://www.hrblock.ca/images/Header/taxcalc.png?w=400&amp;h=400&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=eef81f4e4ff2d289478c889ef32f29aa 400w"
               src="data:image/jpeg;base64,%2F9j%2F4AAQSkZJRgABAQAAAQABAAD%2F2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P%2F2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P%2FwAARCAAQABADASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAABgQF%2F8QAIRAAAgICAgEFAAAAAAAAAAAAAQIREgAEAwVRExUhMWH%2FxAAVAQEBAAAAAAAAAAAAAAAAAAABAv%2FEABURAQEAAAAAAAAAAAAAAAAAAAEA%2F9oADAMBAAIRAxEAPwBLv9tx9ZX1Wvd6KqCWn9yvlVXBLPdlAMeJwfu6fLs9i2xrFCF%2B5PzPnNL3phsUdV45AsFM2gZIyjf%2F2Q%3D%3D"
               alt="See what your refund could look like."
               className="h-full w-full object-contain"
@@ -30,7 +30,7 @@ export default function Calculator() {
                   width="500"
                   height="500"
                   loading="lazy"
-                  srcset="https://www.hrblock.ca/images/Header/taxcalc.png?w=384&amp;h=384&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=682ef0c9fc4feb66a911a4ef60d4a744 384w, https://www.hrblock.ca/images/Header/taxcalc.png?w=430&amp;h=430&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=84a9df7033a5ed2ee0dbdacc3912884c 430w, https://www.hrblock.ca/images/Header/taxcalc.png?w=400&amp;h=400&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=eef81f4e4ff2d289478c889ef32f29aa 400w"
+                  srcSet="https://www.hrblock.ca/images/Header/taxcalc.png?w=384&amp;h=384&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=682ef0c9fc4feb66a911a4ef60d4a744 384w, https://www.hrblock.ca/images/Header/taxcalc.png?w=430&amp;h=430&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=84a9df7033a5ed2ee0dbdacc3912884c 430w, https://www.hrblock.ca/images/Header/taxcalc.png?w=400&amp;h=400&amp;q=82&amp;auto=format&amp;fit=crop&amp;fp-x=0.5&amp;fp-y=0.5&amp;dm=1611924242&amp;s=eef81f4e4ff2d289478c889ef32f29aa 400w"
                   src="data:image/jpeg;base64,%2F9j%2F4AAQSkZJRgABAQAAAQABAAD%2F2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P%2F2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P%2FwAARCAAQABADASIAAhEBAxEB%2F8QAFgABAQEAAAAAAAAAAAAAAAAABgQF%2F8QAIRAAAgICAgEFAAAAAAAAAAAAAQIREgAEAwVRExUhMWH%2FxAAVAQEBAAAAAAAAAAAAAAAAAAABAv%2FEABURAQEAAAAAAAAAAAAAAAAAAAEA%2F9oADAMBAAIRAxEAPwBLv9tx9ZX1Wvd6KqCWn9yvlVXBLPdlAMeJwfu6fLs9i2xrFCF%2B5PzPnNL3phsUdV45AsFM2gZIyjf%2F2Q%3D%3D"
                   alt="See what your refund could look like."
                   className="h-full w-full absolute inset-0"
@@ -43,7 +43,7 @@ export default function Calculator() {
             >
               <div className="py-2">
                 <label
-                  for="province"
+                  htmlFor="province"
                   className="focus:outline-none block text-sm leading-5 text-gray-500"
                 >
                   Province
@@ -71,7 +71,7 @@ export default function Calculator() {
               </div>
               <div className="py-2">
                 <label
-                  for="hrb-txc-income"
+                  htmlFor="hrb-txc-income"
                   className="block text-sm leading-5 text-gray-500"
                 >
                   Income
@@ -90,7 +90,7 @@ export default function Calculator() {
               </div>
               <div className="py-2">
                 <label
-                  for="hrb-txc-cerb"
+                  htmlFor="hrb-txc-cerb"
                   className="block text-sm leading-5 text-gray-500"
                 >
                   CERB
@@ -108,7 +108,7 @@ export default function Calculator() {
               </div>
               <div className="py-2">
                 <label
-                  for="hrb-txc-taxes"
+                  htmlFor="hrb-txc-taxes"
                   className="block text-sm leading-5 text-gray-500"
                 >
                   Taxes Paid
@@ -127,7 +127,7 @@ export default function Calculator() {
               </div>
               <div className="py-2">
                 <label
-                  for="hrb-txc-rrsp"
+                  htmlFor="hrb-txc-rrsp"
                   className="block text-sm leading-5 text-gray-500"
                 >
                   RRSP Contributions

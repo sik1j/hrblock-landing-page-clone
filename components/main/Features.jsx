@@ -168,7 +168,7 @@ export default function Features() {
                         viewBox="0 0 59.539 59.523"
                       >
                         <defs>
-                          <clipPath id="clip-path">
+                          <clipPath id="clipPath">
                             <rect
                               id="Rectangle_421"
                               data-name="Rectangle 421"
@@ -183,7 +183,7 @@ export default function Features() {
                           id="Group_7140"
                           data-name="Group 7140"
                           transform="translate(0 0)"
-                          clip-path="url(#clip-path)"
+                          clipPath="url(#clipPath)"
                         >
                           <path
                             id="Path_176"
@@ -240,7 +240,7 @@ export default function Features() {
                         viewBox="0 0 59.69 59.52"
                       >
                         <g data-name="Group 6712">
-                          <g data-name="Group 7145" clip-path="url(#a)">
+                          <g data-name="Group 7145" clipPath="url(#a)">
                             <path
                               data-name="Path 177"
                               d="M33 34.8a1 1 0 011-1h14.6a1 1 0 110 2H34a1 1 0 01-1-1m1-5.2h14.7a1 1 0 100-2H34a1 1 0 100 2m-4.2 20.1H11.9a1 1 0 01-1-1V25a1 1 0 011-1h17.8a1 1 0 011 1v23.8a1 1 0 01-1 1m-1-23.8H12.8v21.9h15.9zm16 20.2a1 1 0 010 1.4L42.4 50a1 1 0 01-.7.3 1 1 0 01-.7-.3l-2.7-3-1.4 1.4a1 1 0 01-1.6-.5l-1.5-8a1 1 0 011.2-1l7.9 1.4a1 1 0 01.5 1.6L42 43.4zm-2 .7l-2.8-2.7a1 1 0 010-1.4l.8-.7L36 41l.8 4.7.8-.7a1 1 0 01.7-.3 1 1 0 01.6.3l2.8 2.7zM60.5 53v2.7a4 4 0 01-4 4H4a4 4 0 01-4.1-4V53a1 1 0 011-1h4.6V23.3a4 4 0 014-4.1h41.2a4 4 0 014.1 4V52h4.6a1 1 0 011 1m-53-1h15.9a1 1 0 011 1 1.2 1.2 0 001.2 1.2h9.3a1.2 1.2 0 001.3-1.2 1 1 0 011-1H53V23.3a2.1 2.1 0 00-2.2-2.2H9.7a2.1 2.1 0 00-2.2 2.2zm51 2H38a3.2 3.2 0 01-3 2.2h-9.3a3.2 3.2 0 01-3-2.2H1.8v1.7A2.1 2.1 0 004 57.8h52.3a2.1 2.1 0 002.1-2.1zM30.2 12.9a1 1 0 001-1V.9a1 1 0 00-2 0v11a1 1 0 001 1m14 4.1a1 1 0 00.8-.3l8-7.9a1 1 0 00-1.4-1.4l-8 8a1 1 0 00.7 1.6m-28.8-.3a1 1 0 001.4-1.3l-8-8a1 1 0 00-1.4 1.4z"
@@ -254,8 +254,8 @@ export default function Features() {
                       Do it yourself with our tax software
                     </h3>
                     <p className="text-gray-500 pt-3 flex-grow text-lg md:text-base text-center">
-                      A simple way to file taxes online. We'll be here to help
-                      if you need us.
+                      A simple way to file taxes online. We{`'`}ll be here to
+                      help if you need us.
                     </p>
                   </div>
                   <div className="flex-1 flex justify-center items-end py-8">

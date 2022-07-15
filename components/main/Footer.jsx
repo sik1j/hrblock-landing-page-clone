@@ -218,7 +218,7 @@ export default function Footer() {
               <Link
                 href="https://www.hrblock.com"
                 target="_blank"
-                rel="noopener"
+                rel="noreferrer"
                 className="flex space-x-3 outline-none  focus:outline-black border-transparent border-2"
                 data-v-659c2e88=""
               >
@@ -239,7 +239,7 @@ export default function Footer() {
               <sup data-v-659c2e88=""></sup>
               <div data-v-659c2e88="">
                 <p>
-                  The average refund claimed for H&amp;R Block clients who
+                  The average refund claimed htmlFor H&amp;R Block clients who
                   claimed a refund during Tax Season 2020 was $1,651. The
                   average refund amount was calculated based on all clients who
                   had their 2019 tax year return prepared and filed at an
@@ -260,8 +260,8 @@ export default function Footer() {
                 the return at no additional charge to correct our error. If
                 H&amp;R Block makes an error in the preparation of your tax
                 return that costs you any interest or penalties on additional
-                taxes due, although we do not assume the liability for the
-                additional taxes, we will reimburse for the interest and
+                taxes due, although we do not assume the liability htmlFor the
+                additional taxes, we will reimburse htmlFor the interest and
                 penalties.
               </div>
             </div>
@@ -274,7 +274,7 @@ export default function Footer() {
                   At participating offices. H&amp;R Block Instant Refund™ valid
                   only on the federal portion of tax returns filed in Quebec.
                   Some restrictions apply. Not everyone gets a refund. Not
-                  everyone is eligible for H&amp;R Block Instant Refund™.
+                  everyone is eligible htmlFor H&amp;R Block Instant Refund™.
                 </p>
               </div>
             </div>
@@ -285,8 +285,8 @@ export default function Footer() {
               <div data-v-659c2e88="">
                 Enrolment restrictions may apply. Enrolment in, or completion
                 of, the H&amp;R Block Tax Academy™ is neither an offer nor a
-                guarantee of employment. This course is not intended for, nor
-                open to any persons who are either currently employed by or
+                guarantee of employment. This course is not intended htmlFor,
+                nor open to any persons who are either currently employed by or
                 seeking employment with any professional tax preparation company
                 or organization other than H&amp;R Block.
               </div>

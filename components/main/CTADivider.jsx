@@ -7,7 +7,7 @@ export default function CTADivider() {
         <div className="max-w-screen-2xl px-3 md:px-24 py-10 text-center flex mx-auto">
           <div className="w-full md:w-1/2 mx-auto">
             <h3 className="text-black text-lg md:text-base pt-3 pb-2">
-              Unsure which filing option is right for you?
+              Unsure which filing option is right htmlFor you?
             </h3>
             <h4 className="text-3xl font-semibold text-white text-center leading-tight tracking-tight">
               <p>Let us help you decide the best way to file.</p>
