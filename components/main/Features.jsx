@@ -1,22 +1,22 @@
 export default function Features() {
   return (
     <div>
-      <section class="relative">
-        <div class="max-w-screen-2xl mx-auto md:px-28 py-8 md:py-16">
-          <div class="mx-auto py-6 md:pb-12 md:pt-0">
-            <h2 class="font-bold text-hrbgreen-700 w-2/3 mx-auto leading-tight text-3xl md:text-4xl text-center">
+      <section className="relative">
+        <div className="max-w-screen-2xl mx-auto md:px-28 py-8 md:py-16">
+          <div className="mx-auto py-6 md:pb-12 md:pt-0">
+            <h2 className="font-bold text-hrbgreen-700 w-2/3 mx-auto leading-tight text-3xl md:text-4xl text-center">
               File your taxes the way you want.
             </h2>
           </div>
-          <div class="flex flex-col md:flex-row md:space-x-4">
-            <div class="flex-col relative border pt-6 mt-3 mb-4 border-gray-200 mx-6 md:mx-0">
-              <p class="-mt-9 px-3 whitespace-nowrap absolute block left-1/2 transform -translate-x-1/2 pr-2 text-center bg-white uppercase text-lg md:text-base text-gray-800">
+          <div className="flex flex-col md:flex-row md:space-x-4">
+            <div className="flex-col relative border pt-6 mt-3 mb-4 border-gray-200 mx-6 md:mx-0">
+              <p className="-mt-9 px-3 whitespace-nowrap absolute block left-1/2 transform -translate-x-1/2 pr-2 text-center bg-white uppercase text-lg md:text-base text-gray-800">
                 File with an Expert
               </p>
-              <ul class="flex flex-col md:flex-row h-full md:space-x-4 md:px-4">
-                <li class="flex flex-col px-12 md:px-6">
-                  <div class="flex-auto flex flex-col">
-                    <div class="mb-2 h-24 flex items-center justify-center">
+              <ul className="flex flex-col md:flex-row h-full md:space-x-4 md:px-4">
+                <li className="flex flex-col px-12 md:px-6">
+                  <div className="flex-auto flex flex-col">
+                    <div className="mb-2 h-24 flex items-center justify-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="60.273"
@@ -72,21 +72,21 @@ export default function Features() {
                         </g>
                       </svg>
                     </div>
-                    <p class="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
+                    <p className="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
                       File&nbsp;in
                       <br />
                       an&nbsp;office
                     </p>
-                    <p class="text-gray-500 pt-3 text-lg md:text-base text-center">
+                    <p className="text-gray-500 pt-3 text-lg md:text-base text-center">
                       Meet with a Tax Expert to discuss and file your return in
                       person.
                     </p>
                   </div>
-                  <div class="flex-1 flex justify-center items-end py-8">
-                    <a href="/file-your-taxes/file-in-office/" class="">
-                      <div class="CTA flex">
-                        <div class="relative">
-                          <button class="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
+                  <div className="flex-1 flex justify-center items-end py-8">
+                    <a href="/file-your-taxes/file-in-office/" className="">
+                      <div className="CTA flex">
+                        <div className="relative">
+                          <button className="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
                             File in office
                           </button>
                         </div>
@@ -94,9 +94,9 @@ export default function Features() {
                     </a>
                   </div>
                 </li>
-                <li class="flex flex-col px-16 md:px-6">
-                  <div class="flex-auto flex flex-col">
-                    <div class="mb-2 h-24 flex items-center justify-center">
+                <li className="flex flex-col px-16 md:px-6">
+                  <div className="flex-auto flex flex-col">
+                    <div className="mb-2 h-24 flex items-center justify-center">
                       <svg
                         id="Layer_1"
                         data-name="Layer 1"
@@ -131,22 +131,22 @@ export default function Features() {
                         ></path>
                       </svg>
                     </div>
-                    <h3 class="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
+                    <h3 className="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
                       Drop&nbsp;in and&nbsp;drop&nbsp;off
                     </h3>
-                    <p class="text-gray-500 pt-3 text-lg md:text-base text-center">
+                    <p className="text-gray-500 pt-3 text-lg md:text-base text-center">
                       Stop by an office to drop off your documents with a Tax
                       Expert.
                     </p>
                   </div>
-                  <div class="flex-1 flex justify-center items-end py-8">
+                  <div className="flex-1 flex justify-center items-end py-8">
                     <a
                       href="/file-your-taxes/file-in-office/easy-drop-off/"
-                      class=""
+                      className=""
                     >
-                      <div class="CTA flex">
-                        <div class="relative">
-                          <button class="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
+                      <div className="CTA flex">
+                        <div className="relative">
+                          <button className="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
                             Drop-off
                           </button>
                         </div>
@@ -154,9 +154,9 @@ export default function Features() {
                     </a>
                   </div>
                 </li>
-                <li class="flex flex-col px-16 md:px-6">
-                  <div class="flex-auto flex flex-col">
-                    <div class="mb-2 h-24 flex items-center justify-center">
+                <li className="flex flex-col px-16 md:px-6">
+                  <div className="flex-auto flex flex-col">
+                    <div className="mb-2 h-24 flex items-center justify-center">
                       <svg
                         id="Group_7141"
                         data-name="Group 7141"
@@ -194,27 +194,27 @@ export default function Features() {
                         </g>
                       </svg>
                     </div>
-                    <h3 class="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
+                    <h3 className="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
                       Expert tax service from anywhere
                     </h3>
-                    <p class="text-gray-500 pt-3 text-lg md:text-base text-center">
+                    <p className="text-gray-500 pt-3 text-lg md:text-base text-center">
                       Upload your documents remotely and a Tax Expert will file
                       your taxes.
                     </p>
                   </div>
-                  <div class="flex-1 flex justify-center items-end py-8">
+                  <div className="flex-1 flex justify-center items-end py-8">
                     <a
                       href="/file-your-taxes/remote-tax-expert/"
-                      class="relative"
+                      className="relative"
                     >
-                      <div class="CTA flex">
-                        <div class="relative">
-                          <button class="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
+                      <div className="CTA flex">
+                        <div className="relative">
+                          <button className="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
                             File remotely
                           </button>
                         </div>
                       </div>
-                      <div class="absolute top-0 right-2 bg-hrbgreen-800 text-white transform translate-x-1/2 -translate-y-1/2 text-xs md:text-xxs px-1">
+                      <div className="absolute top-0 right-2 bg-hrbgreen-800 text-white transform translate-x-1/2 -translate-y-1/2 text-xs md:text-xxs px-1">
                         New
                       </div>
                     </a>
@@ -222,14 +222,14 @@ export default function Features() {
                 </li>
               </ul>
             </div>
-            <div class="flex-col relative border pt-6 mt-3 mb-4 border-gray-200 mx-6 md:mx-0">
-              <p class="-mt-9 px-3 absolute block whitespace-no-wrap left-1/2 transform -translate-x-1/2 pr-2 text-center bg-white uppercase text-lg md:text-base text-gray-800">
+            <div className="flex-col relative border pt-6 mt-3 mb-4 border-gray-200 mx-6 md:mx-0">
+              <p className="-mt-9 px-3 absolute block whitespace-no-wrap left-1/2 transform -translate-x-1/2 pr-2 text-center bg-white uppercase text-lg md:text-base text-gray-800">
                 File Yourself
               </p>
-              <ul class="flex mx-4 h-full">
-                <li class="flex flex-col px-4">
-                  <div class="flex-auto flex flex-col flex-grow">
-                    <div class="mb-2 h-24 flex items-center justify-center">
+              <ul className="flex mx-4 h-full">
+                <li className="flex flex-col px-4">
+                  <div className="flex-auto flex flex-col flex-grow">
+                    <div className="mb-2 h-24 flex items-center justify-center">
                       <svg
                         id="Layer_1"
                         data-name="Layer 1"
@@ -249,19 +249,22 @@ export default function Features() {
                         </g>
                       </svg>
                     </div>
-                    <h3 class="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
+                    <h3 className="flex-grow text-center leading-tight text-2xl font-semibold text-gray-900">
                       Do it yourself with our tax software
                     </h3>
-                    <p class="text-gray-500 pt-3 flex-grow text-lg md:text-base text-center">
+                    <p className="text-gray-500 pt-3 flex-grow text-lg md:text-base text-center">
                       A simple way to file taxes online. We'll be here to help
                       if you need us.
                     </p>
                   </div>
-                  <div class="flex-1 flex justify-center items-end py-8">
-                    <a href="/file-your-taxes/online-tax-software/" class="">
-                      <div class="CTA flex">
-                        <div class="relative">
-                          <button class="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
+                  <div className="flex-1 flex justify-center items-end py-8">
+                    <a
+                      href="/file-your-taxes/online-tax-software/"
+                      className=""
+                    >
+                      <div className="CTA flex">
+                        <div className="relative">
+                          <button className="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
                             File by yourself
                           </button>
                         </div>
