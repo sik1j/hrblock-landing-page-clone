@@ -15,11 +15,10 @@ export default function Blog() {
               </h2>
               <div className="CTA flex justify-center md:justify-start">
                 <div className="relative">
-                  <Link
-                    href="/blog/"
-                    className="cta flex mx-auto md:mx-0 outline-none focus:outline-black text-xl font-semibold hover:text-hrbgreen-800 focus:outline-black border-b-4 border-black"
-                  >
-                    <div>View all tax tips</div>
+                  <Link href="/blog/">
+                    <div className="cta flex mx-auto md:mx-0 outline-none focus:outline-black text-xl font-semibold hover:text-hrbgreen-800 focus:outline-black border-b-4 border-black">
+                      View all tax tips
+                    </div>
                   </Link>
                 </div>
               </div>

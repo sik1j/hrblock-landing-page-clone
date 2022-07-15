@@ -10,22 +10,18 @@ export default function Header() {
         >
           <div className="absolute inset-0 bg-gray-500 opacity-50"></div>
         </div>
-        <Link
+        <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:outline-black text-white font-semibold text-2xl"
         >
           Skip to Content
-        </Link>
+        </a>
         <div className="relative bg-white">
           <nav className="h-16 max-w-screen-2xl flex items-center justify-between mx-auto">
             <div className="flex">
               <div className="md:w-28 flex items-center">
-                <Link
-                  href="/"
-                  aria-current="page"
-                  className="focus:outline-black inline-block bg-hrbgreen-600 md:w-12 md:h-12 mx-2 active--exact active"
-                >
-                  <>
+                <Link href="/" aria-current="page">
+                  <div className="focus:outline-black inline-block bg-hrbgreen-600 md:w-12 md:h-12 mx-2 active--exact active">
                     <span className="sr-only">Link to Home</span>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -84,18 +80,14 @@ export default function Header() {
                         ></path>
                       </g>
                     </svg>
-                  </>
+                  </div>
                 </Link>
               </div>
 
               <ul className="hidden md:flex -ml-3">
                 <li className="flex-auto">
-                  <Link
-                    id="control16490"
-                    href="/file-your-taxes/"
-                    className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800"
-                  >
-                    <>
+                  <Link id="control16490" href="/file-your-taxes/">
+                    <div className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800">
                       <span className="text-left">File Your Taxes</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -109,16 +101,12 @@ export default function Header() {
                           clipRule="evenodd"
                         ></path>
                       </svg>
-                    </>
+                    </div>
                   </Link>
                 </li>
                 <li className="flex-auto">
-                  <Link
-                    id="control16491"
-                    href="/tax-situations/"
-                    className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800"
-                  >
-                    <>
+                  <Link id="control16491" href="/tax-situations/">
+                    <div className="h-14 group inline-flex items-center leading-none focus:outline-black font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 p-3 text-gray-800">
                       <span className="text-left">Tax Situations</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -132,45 +120,42 @@ export default function Header() {
                           clipRule="evenodd"
                         ></path>
                       </svg>
-                    </>
-                  </Link>
-                </li>
-                <li className="flex-auto">
-                  <Link
-                    href="/tax-calculator/"
-                    className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black "
-                  >
-                    <div
-                      className="
-                  leading-none font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800"
-                    >
-                      <span className="text-left">Tax Calculator</span>
                     </div>
                   </Link>
                 </li>
                 <li className="flex-auto">
-                  <Link
-                    href="/support/"
-                    className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black "
-                  >
-                    <div
-                      className="
-                  leading-none font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800"
-                    >
-                      <span className="text-left">Support</span>
+                  <Link href="/tax-calculator/">
+                    <div className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black ">
+                      <div
+                        className="
+                                        leading-none font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800"
+                      >
+                        <span className="text-left">Tax Calculator</span>
+                      </div>
                     </div>
                   </Link>
                 </li>
                 <li className="flex-auto">
-                  <Link
-                    href="/blog/"
-                    className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black "
-                  >
-                    <div
-                      className="
-                  leading-none font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800"
-                    >
-                      <span className="text-left">Blog</span>
+                  <Link href="/support/">
+                    <div className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black ">
+                      <div
+                        className="
+                                        leading-none font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800"
+                      >
+                        <span className="text-left">Support</span>
+                      </div>
+                    </div>
+                  </Link>
+                </li>
+                <li className="flex-auto">
+                  <Link href="/blog/">
+                    <div className="flex justify-center items-center h-14 px-3 py-4 focus:outline-black ">
+                      <div
+                        className="
+                                        leading-none font-semibold hover:text-hrbgreen-800 transition ease-in-out duration-150 text-gray-800"
+                      >
+                        <span className="text-left">Blog</span>
+                      </div>
                     </div>
                   </Link>
                 </li>
@@ -228,35 +213,34 @@ export default function Header() {
                 </div>
               </li>
               <li>
-                <Link
-                  href="/office-locator/"
-                  className="focus:outline-black h-14 flex justify-center items-center py-3 px-0.5 md:px-3 md:py-4"
-                >
-                  <div className="group flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
-                    <span className="sr-only xl:not-sr-only xl:inline text-right">
-                      Find an Office
-                    </span>
-                    <div className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="15.763"
-                        height="19.619"
-                        viewBox="0 0 15.763 19.619"
-                        className="w-5 h-5"
-                      >
-                        <path
-                          id="Path_60"
-                          data-name="Path 60"
-                          d="M779.252,335.924a6.882,6.882,0,0,0-6.882,6.882c0,2.722,3.53,7.559,5.533,10.085a1.719,1.719,0,0,0,2.7,0c2-2.526,5.534-7.363,5.534-10.085A6.882,6.882,0,0,0,779.252,335.924Zm0,9.794a2.913,2.913,0,1,1,2.912-2.913A2.913,2.913,0,0,1,779.252,345.718Z"
-                          transform="translate(-771.37 -334.924)"
-                          fill="none"
-                          stroke="#005d1f"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeMiterlimit="10"
-                          strokeWidth="2"
-                        ></path>
-                      </svg>
+                <Link href="/office-locator/">
+                  <div className="focus:outline-black h-14 flex justify-center items-center py-3 px-0.5 md:px-3 md:py-4">
+                    <div className="group flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
+                      <span className="sr-only xl:not-sr-only xl:inline text-right">
+                        Find an Office
+                      </span>
+                      <div className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="15.763"
+                          height="19.619"
+                          viewBox="0 0 15.763 19.619"
+                          className="w-5 h-5"
+                        >
+                          <path
+                            id="Path_60"
+                            data-name="Path 60"
+                            d="M779.252,335.924a6.882,6.882,0,0,0-6.882,6.882c0,2.722,3.53,7.559,5.533,10.085a1.719,1.719,0,0,0,2.7,0c2-2.526,5.534-7.363,5.534-10.085A6.882,6.882,0,0,0,779.252,335.924Zm0,9.794a2.913,2.913,0,1,1,2.912-2.913A2.913,2.913,0,0,1,779.252,345.718Z"
+                            transform="translate(-771.37 -334.924)"
+                            fill="none"
+                            stroke="#005d1f"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeMiterlimit="10"
+                            strokeWidth="2"
+                          ></path>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </Link>
@@ -326,70 +310,69 @@ export default function Header() {
                 </div>
               </li>
               <li>
-                <Link
-                  href="/sign-in/"
-                  className="focus:outline-black h-14 flex justify-center items-center py-3 px-0.5 md:px-3 md:py-4 md:hidden"
-                >
-                  <div className="group flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
-                    <span className="sr-only xl:not-sr-only xl:inline text-right">
-                      Sign-in
-                    </span>
-                    <div className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="19"
-                        height="18.5"
-                        viewBox="0 0 19 18.5"
-                        className="w-5 h-5"
-                      >
-                        <g
-                          id="Group_6593"
-                          data-name="Group 6593"
-                          transform="translate(-334 -19)"
+                <Link href="/sign-in/">
+                  <div className="focus:outline-black h-14 flex justify-center items-center py-3 px-0.5 md:px-3 md:py-4 md:hidden">
+                    <div className="group flex items-center leading-none font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150 text-gray-800">
+                      <span className="sr-only xl:not-sr-only xl:inline text-right">
+                        Sign-in
+                      </span>
+                      <div className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="19"
+                          height="18.5"
+                          viewBox="0 0 19 18.5"
+                          className="w-5 h-5"
                         >
                           <g
-                            id="Ellipse_15"
-                            data-name="Ellipse 15"
-                            transform="translate(338 19)"
-                            fill="none"
-                            stroke="#005d1f"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
+                            id="Group_6593"
+                            data-name="Group 6593"
+                            transform="translate(-334 -19)"
                           >
-                            <circle
-                              cx="5.5"
-                              cy="5.5"
-                              r="5.5"
-                              stroke="none"
-                            ></circle>
-                            <circle
-                              cx="5.5"
-                              cy="5.5"
-                              r="4.5"
+                            <g
+                              id="Ellipse_15"
+                              data-name="Ellipse 15"
+                              transform="translate(338 19)"
                               fill="none"
-                            ></circle>
+                              stroke="#005d1f"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                            >
+                              <circle
+                                cx="5.5"
+                                cy="5.5"
+                                r="5.5"
+                                stroke="none"
+                              ></circle>
+                              <circle
+                                cx="5.5"
+                                cy="5.5"
+                                r="4.5"
+                                fill="none"
+                              ></circle>
+                            </g>
+                            <g
+                              id="Path_57"
+                              data-name="Path 57"
+                              transform="translate(334 28)"
+                              fill="none"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            >
+                              <path
+                                d="M9.5,0A9.5,9.5,0,0,1,19,9.5H0A9.5,9.5,0,0,1,9.5,0Z"
+                                stroke="none"
+                              ></path>
+                              <path
+                                d="M 9.5 2 C 6.056855201721191 2 3.148148536682129 4.332322597503662 2.270717620849609 7.5 L 16.72928237915039 7.5 C 15.85185146331787 4.332322597503662 12.94314575195312 2 9.5 2 M 9.5 0 C 14.74670028686523 0 19 4.253300189971924 19 9.5 C 13.9802303314209 9.5 6.380820274353027 9.5 0 9.5 C 0 4.253300189971924 4.253299713134766 0 9.5 0 Z"
+                                stroke="none"
+                                fill="#005d1f"
+                              ></path>
+                            </g>
                           </g>
-                          <g
-                            id="Path_57"
-                            data-name="Path 57"
-                            transform="translate(334 28)"
-                            fill="none"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          >
-                            <path
-                              d="M9.5,0A9.5,9.5,0,0,1,19,9.5H0A9.5,9.5,0,0,1,9.5,0Z"
-                              stroke="none"
-                            ></path>
-                            <path
-                              d="M 9.5 2 C 6.056855201721191 2 3.148148536682129 4.332322597503662 2.270717620849609 7.5 L 16.72928237915039 7.5 C 15.85185146331787 4.332322597503662 12.94314575195312 2 9.5 2 M 9.5 0 C 14.74670028686523 0 19 4.253300189971924 19 9.5 C 13.9802303314209 9.5 6.380820274353027 9.5 0 9.5 C 0 4.253300189971924 4.253299713134766 0 9.5 0 Z"
-                              stroke="none"
-                              fill="#005d1f"
-                            ></path>
-                          </g>
-                        </g>
-                      </svg>
+                        </svg>
+                      </div>
                     </div>
                   </div>
                 </Link>
@@ -459,13 +442,12 @@ export default function Header() {
                 </div>
               </li>
               <li className="sr-only md:not-sr-only md:inline">
-                <Link
-                  href="/fr/"
-                  className="focus:outline-black h-14 flex justify-center items-center px-3 py-4"
-                >
-                  <div className="group space-x-2 leading-6 font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150">
-                    <span className="hidden lg:inline">Français</span>
-                    <span className="inline lg:hidden">FR</span>
+                <Link href="/fr/">
+                  <div className="focus:outline-black h-14 flex justify-center items-center px-3 py-4">
+                    <div className="group space-x-2 leading-6 font-semibold hover:text-gray-900 focus:text-gray-900 transition ease-in-out duration-150">
+                      <span className="hidden lg:inline">Français</span>
+                      <span className="inline lg:hidden">FR</span>
+                    </div>
                   </div>
                 </Link>
               </li>
@@ -533,11 +515,10 @@ export default function Header() {
             <ul className="px-8 space-y-5">
               <li className="">
                 <p className="pb-4">
-                  <Link
-                    href="/file-your-taxes/"
-                    className="w-full block focus:outline-black"
-                  >
-                    File Your Taxes
+                  <Link href="/file-your-taxes/">
+                    <div className="w-full block focus:outline-black">
+                      File Your Taxes
+                    </div>
                   </Link>
                 </p>
 
@@ -545,27 +526,24 @@ export default function Header() {
                   <li className="text-gray-500">
                     <ul className="space-y-5">
                       <li className="text-gray-500">
-                        <Link
-                          href="/file-your-taxes/file-in-office/"
-                          className="w-full block focus:outline-black"
-                        >
-                          File in Office
+                        <Link href="/file-your-taxes/file-in-office/">
+                          <div className="w-full block focus:outline-black">
+                            File in Office
+                          </div>
                         </Link>
                       </li>
                       <li className="text-gray-500">
-                        <Link
-                          href="/file-your-taxes/file-in-office/easy-drop-off/"
-                          className="w-full block focus:outline-black"
-                        >
-                          Drop-off
+                        <Link href="/file-your-taxes/file-in-office/easy-drop-off/">
+                          <div className="w-full block focus:outline-black">
+                            Drop-off
+                          </div>
                         </Link>
                       </li>
                       <li className="text-gray-500">
-                        <Link
-                          href="/file-your-taxes/remote-tax-expert/"
-                          className="w-full block focus:outline-black"
-                        >
-                          Remote Tax Expert
+                        <Link href="/file-your-taxes/remote-tax-expert/">
+                          <div className="w-full block focus:outline-black">
+                            Remote Tax Expert
+                          </div>
                         </Link>
                       </li>
                     </ul>
@@ -573,10 +551,7 @@ export default function Header() {
                   <li className="text-gray-500">
                     <ul className="space-y-5">
                       <li className="text-gray-500">
-                        <Link
-                          href="/file-your-taxes/online-tax-software/"
-                          className="w-full block focus:outline-black"
-                        >
+                        <Link href="/file-your-taxes/online-tax-software/">
                           Tax Software
                         </Link>
                       </li>

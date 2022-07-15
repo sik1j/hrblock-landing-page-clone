@@ -204,11 +204,8 @@ export default function Features() {
                     </p>
                   </div>
                   <div className="flex-1 flex justify-center items-end py-8">
-                    <Link
-                      href="/file-your-taxes/remote-tax-expert/"
-                      className="relative"
-                    >
-                      <>
+                    <Link href="/file-your-taxes/remote-tax-expert/">
+                      <div className="relative">
                         <div className="CTA flex">
                           <div className="relative">
                             <button className="flex outline-none focus:outline-black border-transparent border-transparent border-2 text-white bg-black hover:bg-gray-800 leading-none w-full md:w-auto justify-center inline-flex font-semibold items-center px-4 py-4 lg:px-6 border border-transparent text-base leading-6 focus:outline-black transition ease-in-out duration-150">
@@ -219,7 +216,7 @@ export default function Features() {
                         <div className="absolute top-0 right-2 bg-hrbgreen-800 text-white transform translate-x-1/2 -translate-y-1/2 text-xs md:text-xxs px-1">
                           New
                         </div>
-                      </>
+                      </div>
                     </Link>
                   </div>
                 </li>
